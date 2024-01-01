@@ -8,7 +8,7 @@ def count_holidays(N, festival_days):
 def main():
     T = int(input("Enter the number of test cases: "))
     
-    for _ in range(T):
+    for a in range(T):
         N = int(input("Enter the number of festival days: "))
         festival_days = list(map(int, input("Enter festival days separated by space: ").split()))
         
