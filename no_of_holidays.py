@@ -3,7 +3,7 @@ def count_holidays(N, festival_days):
     for day in festival_days:
         if day % 7 == 1 or day % 7 == 0:
             holidays += 1
-    return holidays
+    return holidays 
 
 def main():
     T = int(input("Enter the number of test cases: "))
