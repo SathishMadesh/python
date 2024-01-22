@@ -6,9 +6,6 @@
 # May - 2190
 # Create a list to store these monthly expenses and using that find out,
 
-# 4. June month just finished and your expense is 1980 dollar. Add this item to our monthly expense list
-# 5. You returned an item that you bought in a month of April and got a refund of 200$. Make a correction to your monthly expense list based on this
-
 
 list = [2200,2350,2600,2130,2190]
 
@@ -31,3 +28,16 @@ for i in list:
         break
 if not spent_2000:
     print("No, You didn't spent 2000 dollars in a month")
+
+
+# 4. June month just finished and your expense is 1980 dollar. Add this item to our monthly expense list
+june = 1980
+list.append(june)
+print(list)
+
+
+# 5. You returned an item that you bought in a month of April and got a refund of 200$. Make a correction to your monthly expense list based on this
+index_of_april = 3
+refund = 200
+list[index_of_april] = list[index_of_april]-200
+print("Your monthly expense list :", list) 
