@@ -7,7 +7,7 @@
 # Create a list to store these monthly expenses and using that find out,
 
 
-list = [2200,2350,2600,2130,2190]
+list = [2200,2350,2600,2130,2190] 
 
 # 1. In Feb, how many dollars you spent extra compare to January?
 extra = list[1]-list[0]
